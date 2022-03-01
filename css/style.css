@@ -1,0 +1,265 @@
+body{
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #212426;
+}
+
+/* css part */
+/* headr css */
+.header{
+    background-color: #f0fff0;
+   padding: 10px 0;
+}
+.nav-head{
+    padding-left: 0;
+}
+.E-sehool img{
+    width: 130%;
+}
+.app-lab div{
+    display: inline;
+}
+.menu li{
+    padding-right:20px;
+}
+.menu li a{
+    text-transform: capitalize;
+    color: #000000 !important;
+    transition: .5s;
+}
+.menu li a:hover{
+    color:#fbd15b !important ;
+}
+.menu li:first-child a{
+    margin-top: 2px;
+   font-weight: 700;
+   border: 2px solid black;
+   padding: 3px 10px;
+}
+.btne{
+    font-size: 20px;
+    background-color: #21b573;
+    color: #ffffff;
+    border-radius:30px !important;
+    padding: 8px 20px;
+    margin-left: 15px;
+    margin-top: -5px;
+    text-transform: capitalize;
+    transition: .5s;
+}
+.btne:hover{
+    background-color:#fbd15b !important ;
+    color:#000000 !important ;
+   
+}
+.c-1{
+    padding:0 !important;
+}
+
+/* banner start  */
+.banner{
+    background: #f0fff0;
+    min-height: 470px;
+}
+.sl-text{
+    margin-top: 100px;
+}
+.sl-text h3{  
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+    color:#fd511a;
+    margin: 20px 0;
+    font-size: 18px;
+}
+.sl-text h1{
+    font-weight:700;
+    color:#000000;
+    font-size:42px;
+    margin: 25px 0;
+  
+}
+.sl-text h1 span{
+    color:#21b573;
+}
+
+.sl-text p{
+    color: #000000;
+    padding-right: -5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+}
+.contact-b{
+    font-size: 18px;
+    background-color: #21b573;
+    color:#ffffff ;
+    padding: 11px 30px;
+    margin-top: 10px;
+    border-radius: 35px ;
+    transition: .5s;
+    border:2px solid black;
+}
+.contact-b:hover{ 
+    background-color: #fbd15b;
+    color: #000;
+    border:2px solid #fbd15b;
+}
+
+/* courses start */
+.courses{
+	background-color: #fff;
+	padding: 50px 0;
+}
+.s-single{
+	margin: 0 auto;
+	background-color: #F8FFFB;
+	height: 270px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: .4s ease;
+	border-radius: 10px;
+
+}
+.s-single:hover {
+	background: #FFFFFF;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+.s_text img{
+	width: 66px;
+	height: 100px;
+	padding-bottom: 20px;
+}
+.s_text h6{
+	margin-bottom: 0;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: #413960;
+}
+.s_text p{
+	margin-bottom: 0;
+	color: #585859;
+}
+/* courses end */
+/* online start */
+.o_course{
+	background-color: #fff;
+	padding: 50px 0;
+}
+.c_title h3{
+	margin-bottom: 0;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 54px;
+	color: #413960;
+	text-align: center;
+}
+.o_item{
+	margin-top: 50px;
+	width: 360px;
+	height: 483px;
+	background: #FFFFFF;
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 18px;
+}
+.o_img{
+	text-align: center;
+}
+.i_img{
+	margin-top: 15px;
+	width: 90%;
+}
+.o_item h4{
+	margin-bottom: 0;
+	margin-top: 20px;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: #413960;
+	padding-left: 19px;
+}
+.o_item p{
+	color: #585859;
+	padding-left: 19px;
+	margin-bottom: 0;
+}
+
+.ob_text{
+	display: flex;
+}
+.ob_text span{
+	color: #585859;
+	padding-left: 5px;
+}
+.ob_text img{
+	height: 100%;
+}
+.on-btn{
+    margin: 20px !important;
+}
+.on-border{
+    border: none;
+}
+.on-border{
+    color: #FFFFFF;
+    margin-left: 19px;
+     margin-top: 25px;
+     background-color:#21b573 ;
+     padding: 13px 30px;
+     border-radius: 30px ;
+    transition: .5s;
+}
+.on-border:hover{
+    background-color: #fbd15b;
+}
+/* online end */
+/* tastimonial start */
+.c_title h2{
+	margin-bottom: 0;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 54px;
+	color: #413960;
+	text-align: center;
+}
+.testimonial{
+	padding: 50px 0;
+}
+.m_img{
+	margin-left: 40px;
+}
+.m_man{
+	margin: 50px 0;
+}
+.m_text{
+	margin-right: 40px;
+}
+/* tastimonial end */
+/* footer start */
+footer{
+	padding: 70px 0 30px 0;
+	background-color: #282531;
+	color: #fff;
+}
+.f_part{}
+.f_text h6{
+	font-weight: 700;
+	font-size: 20px;
+}
+.f_text a{
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	line-height: 30px;
+	transition: .4s;
+}
+.f_text a:hover {
+	color: #fbd15b;
+}
+/* footer end */
+

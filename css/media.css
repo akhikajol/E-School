@@ -1,0 +1,283 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+
+/* header start */
+.E-school img{
+  width: 70%;
+}
+header{
+  padding: 0 !important;
+}
+header .menu li a{
+  padding: 5px 0 !important;
+}
+.menu{
+  margin-left: 13px !important;
+}
+.c-togg{
+  font-size: 16px !important;
+}
+.btne{
+  margin-left: -1px !important;
+  margin-top: 3px;
+}
+.menu li a{
+  margin: 2px 0;
+}
+/* banner start */
+.sl-text{
+  margin-top: -10px !important;
+}
+.banner{
+  padding: 20px 0;
+  text-align: center;
+  min-height: 85px !important;
+}
+.b_text{
+  margin-bottom: 50px;
+  margin-left: 0;
+}
+.b_text h1{
+  line-height: 50px;
+  font-size: 32px;
+}
+.b_text p{
+  line-height: 30px;
+}
+.b_text button{
+  padding: 15px 25px;
+}
+
+/* section start */
+.courses{
+  padding: 35px !important;
+}
+.s-single{
+  margin-top:0 !important;
+  height: 202px !important;
+}
+
+.s_text h6 {
+  font-size: 22px;
+}
+
+/* online start */
+.courses{
+  padding: 0;
+}
+.c_title h3 {
+  font-size: 28px;
+}
+
+.o_item {
+  width: 308px;
+  margin-top: 30px !important;
+  margin: 0 auto;
+}
+.o_item h4 {
+  font-size: 22px;
+}
+
+/* tastimonial start */
+.testimonial{
+  padding: 30px 0;
+}
+.m_img{
+  text-align: center;
+  margin-left: 0;
+}
+.m_text{
+  margin-top: 20px !important;
+  text-align: center !important;
+  margin-right: 0;
+}
+.m_man{
+  margin:20px 0 !important;
+}
+
+/* footer start */
+footer{
+  padding: 30px 0;
+  text-align: center;
+}
+.f_text{
+  margin-top: 25px;
+}
+.fo_1{
+  order: 1 !important;
+}
+.fo_2{
+  margin-top: 40px;
+  order: 2 !important;
+}
+.f_text a{
+  line-height: 24px;
+}
+.f-copy{
+  margin-top:10px !important;
+}
+
+}  
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+/* header start */
+header .menu li a{
+  padding: 5px 0 !important;
+}
+.menu{
+  margin-left: 13px !important;
+}
+.c-togg{
+  font-size: 16px !important;
+}
+.btne{
+  margin-left: -1px !important;
+  margin-top: 3px;
+}
+.menu li a{
+  margin: 2px 0;
+}
+/* banner start */
+.banner{
+  margin-top: 20px;
+  min-height: 100px;
+}
+.sl-text{
+  margin-top: -10px !important;
+}
+/* section start */
+.s-single{
+  height: 220px !important;
+}
+.courses{
+  margin-top: 20px !important;
+}
+
+/* online start */
+.o_course{
+  padding: 0;
+}
+.c_title h3 {
+  font-size: 32px;
+}
+
+.o_item {
+  margin-top: 30px !important;
+  margin: 0 auto;
+}
+
+/* tastimonial start */
+.testimonial{
+    padding: 35px 0 !important;
+}
+.m_img{
+  margin-left: 0;
+}
+.m_man{
+  text-align: center;
+  margin: 40px 0 10px;
+}
+.m_text{
+  margin-right: 0;
+  margin-top: 30px !important;
+
+}
+
+/* footer start */
+.fo_1{
+  order: 1 !important;
+}
+.fo_2{
+  text-align: center;
+  margin-top: 40px;
+  order: 2 !important;
+}
+.f-copy{
+  font-size: 16px;
+ margin-top: 17px !important;
+}
+
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+/* header start */
+
+.menu{
+  margin-left: 15px !important;
+}
+.btne{
+  margin-top: 4px;
+  margin-left: -3px !important;
+}
+
+/* banner start */
+.sl-text{
+  margin-top: 25px !important;
+  
+}
+.banner{
+  padding: 0 !important;
+}
+
+/* section start */
+.s-single{
+  margin-top: 20px;
+  height: 220px !important;
+}
+
+/* online start */
+.o_item {
+  margin-top: 30px !important;
+  margin: 0 auto;
+}
+.o_course {
+ 
+  padding: 0 !important;
+}
+.on-btn {
+  margin-left:15px !important;
+}
+/* tastimonial start */
+.m_img{
+  margin-left: 0;
+}
+.m_text{
+  margin-right: 0;
+}
+.m_man{
+  margin: 40px 0 20px;
+}
+.f-copy{
+  margin-top: 54px !important;
+}  
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/* section start */
+
+.banner {
+  min-height: 425px !important;
+}
+.o_item {
+  width: 310px;
+}
+.testimonial {
+  padding: 35px 0 !important;
+}
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+/* Extra extra large devices ( extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+  
+}
